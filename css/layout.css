@@ -14,17 +14,16 @@ body {
   padding: 0px;
   list-style: none;
   text-decoration: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 img {
   max-width: 100%;
   height: auto;
   display: inline-block;
   vertical-align: middle;
-}
-@media (prefers-color-scheme: dark) {
-  img {
-    filter: brightness(0.8);
-  }
 }
 del,
 s {
